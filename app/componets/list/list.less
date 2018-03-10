@@ -1,0 +1,16 @@
+.todo-list{
+    span{
+        cursor: pointer;
+        &.del:hover{
+            color: red;
+        }
+        &.title{
+            display: inline-block;
+            width: 180px;
+        }
+        &.cur{
+            text-decoration: line-through;
+            color: gray;
+        }
+    }
+}
